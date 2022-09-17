@@ -19,5 +19,6 @@ const load = () => {
     vote(kanjiArray);
     submitButton();
     save(kanjiArray, "kanjiArray");
+    ranking();
 }
  

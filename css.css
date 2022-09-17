@@ -1,13 +1,13 @@
-.kanji_text, .vote_area{
+.kanji_text, .vote_area, .rank_area{
     display: flex;
     flex-wrap: wrap;
 }
 
-.kanji_area, .vote_area{
+.kanji_area, .vote_area, .button{
     margin-bottom: 20px;
 }
 
-.kanji{
+.kanji, .rank{
     margin-right: 10px;
     font-size: 20px;
 }

@@ -31,7 +31,7 @@ const submitCheck = () => {
 
         default:
             // URLの作成
-            let url = "https://script.google.com/macros/s/AKfycbzXGiKLpsPiL96b-g4Km9J_El_0mHyef-b1xZ4WaJvXx31kVSsI51J2JqVyJFb36qZp/exec?array="
+            let url = "https://script.google.com/macros/s/AKfycbzXGiKLpsPiL96b-g4Km9J_El_0mHyef-b1xZ4WaJvXx31kVSsI51J2JqVyJFb36qZp/exec?array=";
             url = url + kanjiArray.join() + "&first=" + first + "&second=" + second + "&third=" + third;
 
             const submitButton = document.getElementsByClassName("button");
