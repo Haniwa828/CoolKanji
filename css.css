@@ -1,0 +1,26 @@
+.kanji_text, .vote_area{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kanji_area, .vote_area{
+    margin-bottom: 20px;
+}
+
+.kanji{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.vote_option{
+    display: flex;
+    flex-direction: column;
+}
+
+.option_label, .vote_option_top, .font_option_top{
+    height: 25px;
+}
+
+.font_option_top{
+    margin-right: 10px;
+}
