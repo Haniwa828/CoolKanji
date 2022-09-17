@@ -17,7 +17,7 @@ const submitCheck = () => {
     const third = document.getElementsByName("3rd")[0].value;
     const error = document.getElementsByClassName("error")[0]; 
     
-    const kanjiArray = recall();
+    const kanjiArray = recall("kanjiArray");
 
     switch(true){
         case first == "notSelected": // 選択されてるか

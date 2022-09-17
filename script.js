@@ -2,6 +2,7 @@
 (()=>{  
     // 漢字の設置
     window.addEventListener("DOMContentLoaded", () => {
+        save(20, "fontSize");
         load();
     });
 })();
@@ -14,9 +15,9 @@ const load = () => {
         main.removeChild(main.firstChild);
     }
 
-    const kanjiArray = kanji();
+    const kanjiArray = kanji(recall("fontSize"));
     vote(kanjiArray);
     submitButton();
-    save(kanjiArray);
+    save(kanjiArray, "kanjiArray");
 }
  
